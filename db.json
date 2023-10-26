@@ -449,6 +449,15 @@
       "basePrice": 22,
       "salePrice": 15,
       "imageUrl": "https://img.freepik.com/free-photo/happy-siblings-with-new-born-baby_23-2148336984.jpg?w=996&t=st=1697706625~exp=1697707225~hmac=d81595e0859a7592c85d01fc1256410f05936c2ff3d19f760f8eae76c48689ce"
+    },
+    {
+      "title": "Robe",
+      "basePrice": "123",
+      "salePrice": "90",
+      "categories": "Robe",
+      "imageUrl": "https://img.freepik.com/free-photo/beautiful-sweet-blonde-woman-bright-outfit-long-skirt-with-flower-print-wavy-hairstudio_132075-13989.jpg?w=740&t=st=1697705012~exp=1697705612~hmac=7c1223c3b060c068d951e996cd5cf523beca8c6b9e7f05ad6366beae5ad599ad",
+      "description": "Robe d'été",
+      "id": 51
     }
   ]
 }

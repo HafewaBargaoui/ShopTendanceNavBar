@@ -3,11 +3,7 @@ import Footer from "./components/Footer";
 
 import ProductsContainer from "./components/ProductsContainer";
 
-import Femmes from "./components/Femmes";
-import Ados from "./components/Ados";
-import Hommes from "./components/Hommes";
-import Enfants from "./components/Enfants";
-import Bébés from "./components/Bébés";
+import Generique from "./components/Generique";
 
 import PageNotFound from "./pages/PageNotFound";
 import Navigation from "./components/Navigation";
@@ -18,11 +14,11 @@ function App() {
 
       <Routes>
         <Route path="/" element={<ProductsContainer />} />
-        <Route path="femmes" element={<Femmes />} />
-        <Route path="ados" element={<Ados />} />
-        <Route path="hommes" element={<Hommes />} />
-        <Route path="enfants" element={<Enfants />} />
-        <Route path="bébés" element={<Bébés />} />
+        <Route path="femmes" element={<Generique categorie="Femmes" />} />
+        <Route path="ados" element={<Generique categorie="Ados" />} />
+        <Route path="hommes" element={<Generique categorie="Hommes" />} />
+        <Route path="enfants" element={<Generique categorie="Enfants" />} />
+        <Route path="bébés" element={<Generique categorie="Bébés" />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer />

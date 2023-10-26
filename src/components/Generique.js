@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import Product from "./Product";
 import { isEmpty } from "../utils/Utils";
 import BackToTopButton from "./BackToTopButton";
-function Femmes() {
+function Generique(props) {
   const products = useSelector((state) => state.productReducer);
   console.log(products);
   return (
@@ -11,7 +11,7 @@ function Femmes() {
       <div className="mx-24 mb-16 mt-32 relative grid grid-cols-1 lg:grid-cols-3 gap-20 pt-4">
         {!isEmpty(products) &&
           products.map((product, index) =>
-            product.categories === "Femmes" ? (
+            product.categories === props.categorie ? (
               <div
                 key={index}
                 className="border shadow-lg rounded-lg hover:shadow-2xl duration-300"
@@ -25,4 +25,4 @@ function Femmes() {
     </>
   );
 }
-export default Femmes;
+export default Generique;

@@ -70,6 +70,11 @@ function Product({ product }) {
 
           <span className="ml-2">Supprimer</span>
         </button>
+        <ModalConfirmDelete
+          produit={product}
+          visible={showModal}
+          onClose={handleOnClose}
+        />
         {/* <div className="flex justify-between mb-6">
           <button
             type="button"
