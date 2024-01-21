@@ -5,6 +5,7 @@ ShopTendance is a React.js and Tailwind CSS application that allows users to dis
 ## Features
 
 - Display a list of articles from a JSON file.
+- Add a new article.
 - Delete an article from the list.
 - Filter articles by categories (men, women, teens, babies, children).
 ## Installation
