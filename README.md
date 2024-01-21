@@ -14,9 +14,9 @@ ShopTendance is a React.js and Tailwind CSS application that allows users to dis
    git clone https://github.com/HafewaBargaoui/ShopTendanceNavBar.git
 ```
 2. Navigate to the project directory:
-   ```bash
+   
    cd ShopTendanceNavBar
-```
+
 3. Install dependencies:
    ```bash
    npm install
