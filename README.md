@@ -22,10 +22,10 @@ ShopTendance is a React.js and Tailwind CSS application that allows users to dis
    npm install
    
 4. Start the JSON server:
- ```bash
+ 
  npx json-server --watch db.json --port 3001
-```
+
 5. Start the development server for the React app:
- ```bash
+
  npm start
-```
+
